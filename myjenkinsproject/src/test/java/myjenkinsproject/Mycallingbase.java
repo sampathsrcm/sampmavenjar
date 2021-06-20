@@ -32,6 +32,20 @@ public class Mycallingbase {
 			
 		}
 		
+		@Test
+		public void greetershouldincludetheonebeinggreeted1() {
+			String someone = "World ya its me guys";
+			
+			System.out.println("someone" + someone);
+			if (mb == null)
+				
+			{System.out.println("greeter is null"); }
+			else
+			{String s = mb.greet(someone);
+			assertEquals(s, someone); }
+			
+		}
+		
 		
 	
 
